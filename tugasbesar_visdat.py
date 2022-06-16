@@ -219,7 +219,3 @@ panel_high = Panel(child=fig_high, title='High')
 panel_low = Panel(child=fig_low, title='Low')
 
 tabs = Tabs(tabs=[panel_adj, panel_vol, panel_open, panel_close, panel_high, panel_low])
-
-"""## Show Plot"""
-
-bokeh serve --show myapp.py
